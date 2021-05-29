@@ -9,6 +9,7 @@ a,
 	transition: all 150ms linear;
 	-webkit-transition: all 150ms linear;
 	-moz-transition: all 150ms linear;
+
 }
 .galleryContainer {
 	margin: 40px auto;
@@ -26,9 +27,11 @@ a,
 	position: relative;
 	top: 0;
 	left: 0;
+	
 }
 img.previewImage1 {
 	display: block;
+	
 }
 .galleryPreviewArrows a {
 	font-family: Arial;
@@ -101,4 +104,7 @@ a.nextSlideArrow {
 }
 .galleryThumbnails a.active img {
 	border: 4px solid #F00;
+}
+html{
+	background-color: antiquewhite;
 }
